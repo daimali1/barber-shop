@@ -1,0 +1,340 @@
+@media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    .owl-carousel .owl-nav button.owl-prev{
+    /*margin-right: 1148px;*/
+    position: relative;
+    left: -90px  !important;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    /*margin-right: 1148px;*/
+    position: relative;
+    right: -90px !important;
+    
+}
+    
+    .horrool:after{
+     display: none;
+}
+    
+    .description {
+    padding: 70px 14px 0px 14px;
+}
+    .description p {
+    padding: 0px 16px 0px 16px;
+}
+    
+    .prods {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+    
+    .owl-theme .owl-dots .owl-dot span{
+    height: 2px;
+    width: 40px;
+    margin: 2px 0px;
+    background: #e6e6e6;
+}
+    .footer div{
+        text-align: center;
+    }
+    
+}
+@media (min-width:321px) and (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+
+    .header{
+    padding: 30px 0px 30px 0px;
+    color: white;
+}
+    .containers{
+    width: 100% !important;
+    margin: 0 auto;
+}
+    .description{
+    padding: 20px 0px 0px 10px;
+}
+    .description p {
+    padding: 0px 30px 0px 30px;
+    font-size: 24px;
+}
+
+    .nav-content{
+        text-align: center;
+        background:rgba(0,0,0,0.3);
+    }
+    
+    
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    }
+    .owl-carousel button.owl-dot{
+    position: relative;
+    top: -65px;
+}
+    .owl-theme .owl-dots .owl-dot span{
+    height: 2px;
+    width: 40px;
+    margin: 2px 0px;
+    background: #e6e6e6;
+}
+    .owl-carousel .owl-nav button.owl-prev{
+    /*margin-right: 1148px;*/
+    position: relative;
+    left: -100px  !important;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    /*margin-right: 1148px;*/
+    position: relative;
+    right: -107px !important;
+    
+}
+    .services p{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .who p{
+        padding-left: 40px;
+        padding-right: 40px;
+}
+    
+    .prods{
+    text-align: center;
+        padding: 20px 20px 20px 20px; 
+        padding-left: 40px;
+        padding-right: 40px;
+}
+    
+    .footer{
+        padding-bottom: 30px;
+}
+    
+    .footer div{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    
+    .navbar-toggler {
+    margin-left: 265px;
+    margin-top: -60px;
+}
+    
+    .nav-item a{
+        width: 73%;
+    }
+    
+    .horrool:after{
+     display: none;
+}
+
+    .r-pad{
+    padding-bottom: 40px;
+}
+
+.r-padss{
+    padding-bottom: 10px;
+}
+    
+    
+}
+@media (min-width:480px) and (max-width:768px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+    .header{
+    padding: 30px 0px 30px 0px;
+    color: white;
+}
+    .containers{
+    width: 100% !important;
+    margin: 0 auto;
+}
+    .description{
+    padding: 20px 0px 0px 10px;
+}
+    .description p {
+    padding: 0px 30px 0px 30px;
+    font-size: 24px;
+}
+
+    .nav-content{
+        text-align: center;
+        
+    }
+    
+    
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    top: -180px;
+}
+    .owl-carousel button.owl-dot{
+    position: relative;
+    top: -65px;
+}
+    .owl-theme .owl-dots .owl-dot span{
+    height: 2px;
+    width: 40px;
+    margin: 2px 0px;
+    background: #e6e6e6;
+}
+    .owl-carousel .owl-nav button.owl-prev{
+    /*margin-right: 1148px;*/
+    position: relative;
+    left: -300px !important;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    /*margin-right: 1148px;*/
+    position: relative;
+    right: -300px !important;
+    
+}
+    
+    .title {
+    height: 120px;
+}
+    
+    .nav li a{
+    color: #ffffff;
+    margin-right:-38px !important;
+    font-family: mysec;
+    font-size: 20px;
+}
+
+
+
+.paddig{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+    /*.services p{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .who p{
+        padding-left: 40px;
+        padding-right: 40px;
+}*/
+    
+    .prods{
+    text-align: center;
+        padding: 20px 20px 20px 20px; 
+        /*padding-left: 40px;
+        padding-right: 40px;*/
+}
+    
+    .footer{
+        padding-bottom: 30px;
+}
+    
+    .footer div{
+        padding-bottom: 30px;
+        padding-left: 40px;
+    }
+    
+    
+    
+    .nav li a{
+    margin-right:-5px;
+}
+    .horrool:after{
+      content: " ";
+    background:url(../assets/images/hr_03_03.png) no-repeat ;
+    width: 15%;
+    position: absolute;
+    height: 8%;
+    left: 325px;
+}
+    
+    
+}
+@media (min-width:770px) and (max-width:1100px)  { 
+    
+    .header{
+    padding: 30px 0px 30px 0px;
+    color: white;
+}
+    .containers{
+    width: 100% !important;
+    margin: 0 auto;
+}
+    .description{
+    padding: 20px 0px 0px 10px;
+}
+    .description p {
+    padding: 0px 30px 0px 30px;
+    font-size: 24px;
+}
+    
+    
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    }
+    .owl-carousel button.owl-dot{
+    position: relative;
+    top: -65px;
+}
+    .owl-theme .owl-dots .owl-dot span{
+    height: 2px;
+    width: 40px;
+    margin: 2px 0px;
+    background: #e6e6e6;
+}
+    .owl-carousel .owl-nav button.owl-prev{
+    /*margin-right: 1148px;*/
+    position: relative;
+    left: -400px !important;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    /*margin-right: 1148px;*/
+    position: relative;
+    right: -400px !important;
+    
+}
+    
+    
+    .footer{
+        padding-bottom: 30px;
+}
+    
+    .footer div{
+        padding-bottom: 30px;
+        padding-left: 40px;
+    }
+    
+    
+    
+    
+    .nav li a{
+    margin-right:-55px;
+}
+    .spend h4{
+        font-size: 20px;
+    }
+    
+    .proud{
+    padding-top: 30px;
+}
+    
+    .horrool:after{
+    width: 12%;
+    height: 8%;
+    left: 450px;
+}
+
+    
+    @media (min-width:1100px) and (max-width:1200px)  { 
+    .horrool:after{
+    width: 12%;
+    height: 8%;
+    left: 450px;
+}
+        
+     
+}
+    
+    
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

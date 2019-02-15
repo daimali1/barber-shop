@@ -1,0 +1,288 @@
+@font-face {
+  font-family: 'MyWebFont';
+    src:url(../fonts/ChaparralPro-Regular.otf);
+}
+
+@font-face {
+  font-family: mysec;
+    src:url(../fonts/Alternate-%20Gothic.ttf);
+}
+
+@font-face {
+  font-family: itelic;
+    src:url(../fonts/ChaparralPro-LightIt.otf);
+}
+
+@font-face {
+  font-family: heading;
+    src:url(../fonts/Intro.otf);
+}
+
+body{
+    font-family: 'MyWebFont';
+}
+
+h3,h4{
+    font-family: mysec;
+}
+
+.header{
+    background-image:url(../assets/bg_home.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0px 110px 0px;
+    color: white;
+}
+
+img{max-width: 100%;}
+
+/*.containers{
+    width: 1000px;
+    margin: 0 auto;
+}
+.container{
+    min-width: 1000px;
+}*/
+
+.nav li a{
+    color: #ffffff;
+    margin-right:25px;
+    font-family: mysec;
+    font-size: 20px;
+}
+
+
+
+.paddig{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+
+.description{
+    text-align: center;
+    padding: 70px 140px 0px 140px;
+}
+
+.description h1{
+    
+    font-family: heading;
+}
+
+.description p{
+    padding: 0px 160px 0px 160px;
+    font-size: 24px;
+}
+
+.mybutn{
+    border-radius: 35px; 
+    -moz-border-radius: 35px; 
+    -webkit-border-radius: 35px; 
+    border: 1px solid #333333;
+    padding: 10px 50px;
+    background: #ffffff;
+    font-family: mysec;
+    font-size: 22px;
+}
+
+.services{
+    background: #ffffff;
+    text-align: center;
+    padding: 95px 0px 10px 0px;
+}
+
+.services h3{
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.services p{
+    font-size: 19px;
+}
+
+.pad{
+    padding: 30px 30px 0 30px;
+}
+
+.proud{
+    padding-top: 70px;
+    padding-bottom:0px;
+    text-align: center;
+}
+
+.proud h3{
+    font-family: heading;
+    padding-bottom: 80px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    height: 2px;
+    width: 270px;
+    margin: 2px 0px;
+    background: #e6e6e6;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: -220px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover{
+    background: black;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    /*margin-right: 1148px;*/
+    position: relative;
+    left: -590px !important;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    /*margin-right: 1148px;*/
+    position: relative;
+    right: -590px !important;
+    
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #000000;
+}
+
+.owl-carousel button.owl-dot{
+    position: relative;
+    top: -65px;
+}
+
+.who{
+    
+}
+
+.roolers{
+    padding-top: 100px;
+}
+
+.roolersss{
+    padding-top: 50px;
+}
+
+.who h4{
+    padding-top: 30px;
+}
+
+.who p{
+    padding: 20px 20px 0px 20px;
+}
+
+.spend{
+    
+}
+
+.spend h4{
+    padding-top: 25px;
+}
+
+.spend p{
+    padding-bottom: 30px;
+}
+
+.btnss{
+    padding: 4px 18px;
+    font-size: 10px;
+}
+
+.prods{
+    text-align: left;
+}
+
+.sign{
+    padding-bottom: 100px;
+}
+
+
+/*SEARCH FORM*/
+.search-form {
+    border-radius: 40px 0px 0px 40px;
+    border-right: 0px !important;
+    border: 2px solid black;
+    font-size: 20px;
+    color: #b2b2b2;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+ .search-btn {
+    border-radius: 0px 40px 40px 0px;
+     border-left: 0px !important;
+     border: 2px solid black;
+     padding: 20px 25px 20px 20px;
+     background: transparent !important;
+    cursor:pointer;
+     font-family: mysec;
+     font-size: 20px;
+}
+
+.email-frme{
+    padding: 10px 20px 10px 40px;
+}
+
+.tex{
+    font-size: 13px;
+    padding: 15px;
+}
+
+.footer{
+    padding: 60px 0px 100px 0px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.f-title{
+    font-family: itelic;
+    color: #949494;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.page{
+    line-height: 23px;
+}
+
+.title{
+    height: 80px;
+}
+
+.owl-next span {
+    position: relative;
+    top: -13px;
+}
+
+.owl-prev span {
+    position: relative;
+    top: -15px;
+}
+
+.horrool:after{
+      content: " ";
+    background:url(../assets/images/hr_03_03.png) no-repeat ;
+    width: 9%;
+    position: absolute;
+    height: 8%;
+    left: 692px;
+}
+
+
+.r-pad{
+    padding-bottom: 90px;
+}
+
+.r-padss{
+    padding-bottom: 50px;
+}
+
